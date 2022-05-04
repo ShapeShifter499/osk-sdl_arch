@@ -1,9 +1,10 @@
-# Maintainer: Danct12 <danct12@disroot.org>
+# Maintainer: Lance G. <gero3977 at gmail dot com>
+# Contributor: Danct12 <danct12@disroot.org>
 pkgname=osk-sdl
 pkgver=0.66
 pkgrel=2
 pkgdesc="SDL2 On-screen Keyboard for FDE"
-arch=(x86_64 armv7h aarch64)
+arch=(x86_64)
 url="https://gitlab.com/postmarketOS/osk-sdl"
 license=('GPL3')
 depends=(device-mapper cryptsetup sdl2 sdl2_ttf mesa ttf-dejavu)
