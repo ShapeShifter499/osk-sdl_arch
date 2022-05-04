@@ -5,7 +5,7 @@ Forked PKGBUILD and related files originally from https://github.com/dreemurrs-e
 
 osk-sdl main project, code, and bug reports can be found at https://gitlab.com/postmarketOS/osk-sdl
 
-Issues about how this package works can be filed here. 
+Issues regarding how this package works can be filed here. 
 
 Issues regarding how osk-sdl works in general should be brought up with the official repository at: https://gitlab.com/postmarketOS/osk-sdl/-/issues
 
