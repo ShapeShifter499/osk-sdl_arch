@@ -13,7 +13,7 @@ Issues regarding how osk-sdl works in general should be brought up with the offi
 
 ```sh
 sudo pacman -S --needed base-devel git
-git clone https://aur.archlinux.org/packages/osk-sdl
+git clone https://aur.archlinux.org/osk-sdl.git
 cd osk-sdl
 makepkg -fsri
 ```
