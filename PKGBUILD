@@ -29,5 +29,5 @@ package() {
   install -Dm644 ${srcdir}/osk-sdl-install ${pkgdir}/usr/lib/initcpio/install/osk-sdl
 }
 md5sums=('fb608060dea423d221bdfff9a6101624'
-         '2081d2bdf45d4559e6d8d3a2032c443e'
+         '7d5b556b2452d5ccc23303ae1acc77be'
          '3025fb91626943901f33437ac74a748c')

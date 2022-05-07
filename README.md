@@ -53,3 +53,8 @@ Lastly make sure you've added the proper device to your kernel command line. mki
 
 * If a LVM contains the <a href="https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#LUKS_on_LVM">encrypted root</a>, the LVM gets activated first and the volume group containing the logical volume of the encrypted root serves as <i>device</i>. It is then followed by the respective volume group to be mapped to root. The parameter follows the form of "cryptdevice=<i>/dev/vgname/lvname</i>:<i>dmname</i>".
 </pre>
+
+
+Optionally add ```osk_kms=``` to your kernel command line with a comma separated list of modules you need for osk-sdl to work but cause issues when being loaded too early in boot, this will trigger those modules to be unloaded immediately after unlocking so they can be loaded later. 
+This is to workaround issues such as the KMS backlight issue where backlight controls completely stop working keeping the device at full brightness. This is caused when some video drivers are loaded too early in boot taking control away from userland. 
+
