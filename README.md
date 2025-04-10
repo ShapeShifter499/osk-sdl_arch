@@ -1,6 +1,9 @@
 **THIS PROJECT IS DEPERICATED! PLEASE SEE THESE FOR MORE INFORMATION**
+
 **OSK-SDL IS NO LONGER DEVOLOPED. ALL EFFORTS HAVE BEEN MOVED TO Unl0kr**
+
 **See notice at these pages: https://wiki.postmarketos.org/wiki/Osk-sdl and https://gitlab.postmarketos.org/postmarketOS/pmaports/-/issues/2319**
+
 **Please refer to this Arch Linux User Repository page for getting Unl0kr on Arch Linux: https://aur.archlinux.org/packages/unl0kr**
 
 # osk-sdl_arch
